@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.list {
+  margin-left: auto;
+}
+.imd {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.572),
+      rgba(0, 0, 0, 0.71)
+    ),
+    url(hero-bg.jpg);
+  height: 700px;
+  background-size: cover;
+}
+.content {
+  margin-inline: 100px;
+  font-size: 22px !important;
+  padding-top: 250px;
+}
+.heading {
+  font-size: 60px;
+}
+.lol {
+  margin-left: 170px;
+  margin-top: -39px;
+}
+.lil:hover {
+  color: red !important;
+}
+.carou {
+  filter: grayscale(10);
+}
+.carou:hover {
+  filter: grayscale(0);
+}
+.sky {
+  transform: skewY(-3deg);
+  background-color: #1b1b1b;
+  height:720px;
+  margin-top: 150px;
+}
+.skx {
+  transform: skewY(3deg);
+}
+.box {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 150px;
+  width: 300px;
+  padding: 10px;
+}
+.circle {
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: -160px;
+  margin-left: 120px;
+}
+.nav-pills .nav-link {
+  background-color: white;
+  color: black;
+  display: flex;
+  border: 1px solid black;
+  margin-top: 200px;
+  width: 300px;
+  height: 100px;
+}
+.nav-pills .nav-link.active {
+  background-color: red;
+  color: white !important;
+}
+.nav-pills .nav-link:hover {
+  outline: 1px solid red;
+  color: #dc3545;
+}
+.bbb{
+  background-color: #3c3c3c;
+  color: white;
+}
+.portfo{
+    margin-top: 200px;
+}
+.link{
+    margin-top: 20px;
+}
+.Pricing {
+   transform: skewY(-3deg);
+}
+.p-container {
+   transform: skewY(3deg);
+}
+.p-item {
+   list-style-type: none; /* Remove bullets */
+   padding: 0;
+}
+.p-list {
+   margin-left: -30px;
+}
+.btn-dark:hover {
+   background-color: rgb(205, 37, 37);
+}
+.accordion-button:hover{
+  color: red;
+}
+.sul1{
+  transform: skewY(-3deg);
+  background-color: #1b1b1b;
+  margin-top: 200px !important;
+}
+.sul2{
+  transform: skewy(3deg);
+}
+.card-body{
+  background-color: #353535 !;
+}
+.dd{
+ border-color:#cfe3f6;
+ border-width: 0.1px;
+ border-top-color: #cfe3f6;
+}
